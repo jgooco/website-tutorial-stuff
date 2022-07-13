@@ -1,13 +1,21 @@
 body {
-    background-color: black;
+    background-image: url("The GoLoco Show Wide (1920 × 1080 px).png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 h1 {
     color:white;
     font-family: "consolas", sans-serif;
     font-weight: bold;
     font-size:xx-large;
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 p{
+    border-style:groove ;
     font-family: "consalas", sans-serif;
     color:green;
 }
