@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+h1 {
+    color:white;
+    font-family: "consolas", sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+p{
+    font-family: "consalas", sans-serif;
+    color:green;
+}
+.odd{
+    color:red;
+}
+
+.even{
+    color:blue;
+}
