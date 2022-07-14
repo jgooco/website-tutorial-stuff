@@ -1,28 +1,44 @@
-body {
-    background-image: url("The GoLoco Show Wide (1920 × 1080 px).png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-h1 {
-    color:white;
-    font-family: "consolas", sans-serif;
-    font-weight: bold;
-    font-size:xx-large;
-    background: linear-gradient(to right, skyblue, lightgreen);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-p{
-    border-style:groove ;
-    font-family: "consalas", sans-serif;
-    color:green;
-}
-.odd{
-    color:red;
+body{
+    margin: 0px;
 }
 
-.even{
-    color:blue;
+#box1{
+    border: 5px solid;
+    width: 300px;
+    height: 300px;
+    font-size: 22px;
+    background-color: greenyellow;
+
+    position:static;
+
+    /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin: 50px;
+    margin-left :auto;
+    */
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color:mediumblue;
+}
+
+a:link{
+    color:lawngreen;
+}
+
+a:visited{
+    color:grey;
+}
+
+a:hover{
+    color:tomato;
+}
+
+a:active{
+    color:yellow;
 }
